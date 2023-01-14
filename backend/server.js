@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 });
 
 //routes
-app.use("/api/workoutes", WorkoutRoutes);
+app.use("/api/workouts", WorkoutRoutes);
 
 //connect to db
 mongoose.set("strictQuery", true);
